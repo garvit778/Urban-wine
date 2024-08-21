@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2d1016;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+header h1{
+
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 0px;
+      
+}
+header h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+header img{
+    height: 150px;
+    width: 125px;
+    border: 1px solid beige;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+
+}
+
+.product {
+    background-color: #c4bbaf;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: fit-content;
+    margin-top: 0px;
+}
+
+.product img {
+    width: 100%;
+    height: fit-content;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.head-logo{
+    padding: 0px;
+    border: 3px solid blanchedalmond;
+    width: 90px;
+}
+.head-logo a {
+    text-decoration: none;
+    color: beige;
+    margin: 0px
+}
+
+.product-list{
+    background: url("pexels-photo-1283219.jpeg");
+    background-size: cover;
+    height: 1200px;
+
+    
+}
+

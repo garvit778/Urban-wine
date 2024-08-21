@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Wine Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class = "head-logo" >
+            <a href="index.html">
+        <h1>Urban</h1>
+        <h2>wine</h2>
+    </a>
+    </div>
+        
+    </header>
+
+    <main>
+        <section class="product-list">
+            <div class="product">
+                <img src="Leonardo_Phoenix_Exuding_opulence_and_refinement_the_luxurious_0.jpg" alt="Wine 1">
+                <h2>Red Wine</h2>
+                <p>Price: 2200₹</p>
+                <button onclick="addToCart('Red Wine', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Leonardo_Phoenix_Elegant_highend_flat_vector_art_illustration_2.jpg" alt="Wine 2">
+                <h2>White Wine</h2>
+                <p>Price: 7000₹</p>
+                <button onclick="addToCart('White Wine', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="jameson.jpg" alt="Jameson">
+                <h2>Jameson</h2>
+                <p>Price: 3600₹</p>
+                <button onclick="addToCart('Jameson', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="Ethed-Edition1-Glenfiddich-Whisky-Flatlay.jpg" alt="glenfiddich 18">
+                <h2>glenfiddich 18</h2>
+                <p>Price: 7800₹</p>
+                <button onclick="addToCart('glenfiddich', 25)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
